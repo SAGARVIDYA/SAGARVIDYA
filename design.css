@@ -5,6 +5,10 @@
     display:flex;
     flex-wrap:wrap;
     color: white;
+    box-shadow:inset 5px 5px 20px grey;
+    border-radius: 20px;
+    justify-content: center;
+    text-align: center;
 }
 
 #test{
@@ -12,23 +16,31 @@
     height:70px;
     padding: 7px;
     border:none;
-    box-shadow: 0 0 20px white(0, 0, 0, 0.2);
+    box-shadow: inset 0 0 20px;
     border-radius: 8px;
+    font-size: medium;
     
 }
 .btn{
     width: 50px;
     height:50px;
     margin-bottom: 10px;
-    padding: 20px;
     border: 0;
     background-color:#555;
-    border-radius:4px;
+    border-radius: 4px;
+    font-size: medium;
+    color:whitesmoke;
+    box-shadow: inset 2px 2px 10px;
+    padding: 5px;
 }
 button:hover {
-    background-color: whitesmoke;
+    background-color:yellow;
 }
 body{
     background-image:url(image.jpg);
     background-size:contain;
+}
+.clearbutton{
+    justify-content: space-between;
+    text-align:left;
 }
